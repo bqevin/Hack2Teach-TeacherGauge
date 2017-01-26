@@ -7,7 +7,7 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
-import com.projects.kevinbarassa.thefoorapp.volley.LruBitmapCache;
+import com.projects.kevinbarassa.teachergauge.volley.LruBitmapCache;
 
 
 public class AppController extends Application {
