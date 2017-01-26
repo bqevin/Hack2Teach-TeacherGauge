@@ -22,7 +22,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;
 
     // Database Name
-    private static final String DATABASE_NAME = "stylus_api";
+    private static final String DATABASE_NAME = "teacher_api";
 
     // Login table name
     private static final String TABLE_USER = "user";

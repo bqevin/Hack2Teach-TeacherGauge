@@ -29,7 +29,7 @@
             android:layout_height="match_parent"
             android:text="@string/app_name"
             android:textSize="45dp"
-            android:textColor="@color/white"
+            android:textColor="@color/colorAccent"
             android:textStyle="bold"
             android:textAlignment="center"
             android:paddingBottom="20dp"/>
@@ -39,26 +39,26 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="@color/white"
-            android:hint="@string/hint_email"
+            android:background="@android:color/white"
+            android:hint="Email Adress"
             android:inputType="textEmailAddress"
             android:padding="10dp"
 
             android:singleLine="true"
-            android:textColorHint="@color/input_login_hint" />
+            android:textColorHint="@color/secondary_text" />
 
         <EditText
             android:id="@+id/password"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="@color/white"
-            android:hint="@string/hint_password"
+            android:background="@android:color/white"
+            android:hint="Password"
             android:inputType="textPassword"
             android:padding="10dp"
             android:singleLine="true"
-            android:textColor="@color/input_login"
-            android:textColorHint="@color/input_login_hint" />
+            android:textColor="@color/primary_text"
+            android:textColorHint="@color/secondary_text" />
 
         <!-- Login Button -->
 
@@ -67,10 +67,10 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dip"
-            android:background="#14c902"
+            android:background="@color/colorAccent"
             android:textStyle="bold"
-            android:text="@string/btn_login"
-            android:textColor="@color/white" />
+            android:text="Login"
+            android:textColor="@android:color/white" />
 
         <!-- Link to Login Screen -->
 
@@ -80,10 +80,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dip"
             android:background="@null"
-            android:text="@string/btn_link_to_register"
+            android:text="Haven't registered? Do so here"
             android:textAllCaps="false"
             android:textStyle="bold"
-            android:textColor="@color/white"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="20dp" />
     </LinearLayout>
 
