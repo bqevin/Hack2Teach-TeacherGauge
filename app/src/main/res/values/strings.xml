@@ -6,4 +6,8 @@
     <string name="start">Get Gauged</string>
     <string name="next">NEXT</string>
     <string name="action_settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_course">Courses Offered</string>
+    <string name="title_activity_evaluation">Earn Value Points</string>
+    <string name="title_activity_summary">"Summary "</string>
 </resources>

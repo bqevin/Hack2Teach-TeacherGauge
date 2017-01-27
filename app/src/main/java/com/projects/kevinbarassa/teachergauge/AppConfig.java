@@ -5,8 +5,8 @@ package com.projects.kevinbarassa.teachergauge;
  */
 public class AppConfig {
     // Server user login url
-    public static String URL_LOGIN = "http://agrigender.net/arosto/users/login.php";
+    public static String URL_LOGIN = "http://tusemezane.or.ke/sandbox/users/login.php";
 
     // Server user register url
-    public static String URL_REGISTER = "http://agrigender.net/arosto/users/register.php";
+    public static String URL_REGISTER = "http://tusemezane.or.ke/sandbox/users/register.php";
 }
